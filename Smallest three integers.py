@@ -1,0 +1,12 @@
+# Smallest amoung three integers (a,b,c)
+a=int(input())
+b=int(input())
+c=int(input())
+if a==b==c:
+  print("a,b,c is smallest")
+elif a<=b and a<=c:
+  print("a is smallest")
+elif b<=a and b<=c :
+  print("b is smallest")
+else:
+   print("c is smallest")
